@@ -33,7 +33,7 @@ void printTable(vector<Process> &processList)
 {
     cout << "\n";
     cout << "+----+----------------+--------------+---------------+---------------+-------------------+--------------+-------------+\n";
-    cout << "| ID | Process Name   | Arrival Time | Burst Time    | Response Time | Completion Time  | Waiting Time | Turn Around |\n";
+    cout << "| ID | Process Name   | Arrival Time | Burst Time    | Response Time | Completion Time  | Waiting Time | Turn Around  |\n";
     cout << "+----+----------------+--------------+---------------+---------------+-------------------+--------------+-------------+\n";
 
     for (auto &proc : processList)
