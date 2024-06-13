@@ -102,6 +102,7 @@ int main()
     cout << "\n\nAverage Completion Time for " << numberOfProcesses << " Processes: " << (float)totalCompletionTime / numberOfProcesses;
     cout << "\n\nAverage Waiting Time for " << numberOfProcesses << " Processes: " << (float)totalWaitingTime / numberOfProcesses;
     cout << "\n\nAverage Turn Around Time for " << numberOfProcesses << " Processes: " << (float)totalTurnAroundTime / numberOfProcesses;
+    cout << "\n\n";
 
     return 0;
 }
